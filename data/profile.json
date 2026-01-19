@@ -1,0 +1,27 @@
+{
+  "type": "MF",
+  "fid": "3F00",
+  "name": "MF",
+  "children": [
+    {
+      "type": "DF",
+      "fid": "7FFF",
+      "name": "ADF_USIM",
+      "children": [
+        {
+          "type": "EF_TRANSPARENT",
+          "fid": "6F07",
+          "name": "EF_IMSI",
+          "content_file": "ef_imsi.bin"
+        },
+        {
+              "type": "EF_LINEAR_FIXED",
+              "fid": "6F3C",
+              "name": "EF_SMS",
+              "record_len": 176,
+              "records_file": "ef_sms_records.bin"
+            }
+      ]
+    }
+  ]
+}
